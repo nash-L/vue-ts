@@ -1,11 +1,10 @@
 import Vue from 'vue'
+
 import App from './App.vue'
 
-import router from './conf/router'
+import './conf/ui'
 
-const app = new Vue({
-  router,
+new Vue({
+  el: '#app',
   render: h => h(App)
 })
-
-app.$mount("#app");
