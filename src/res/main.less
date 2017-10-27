@@ -1,0 +1,56 @@
+@color-primary: #2b85e4;
+@color-background: #f8f8f9;
+@color-border: #dddee1;
+@color-content: #495060;
+@color-sub: #80848f;
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 1.1rem;
+}
+
+small {
+  font-size: .8em;
+  opacity: .8;
+}
+
+#main:before {
+  content: "";
+  display: block;
+  height: 3rem;
+  margin-top: 3px;
+}
+
+// 导航菜单样式
+.nav-header {
+  background: @color-background;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid @color-border;
+  // 按钮及选中样式
+  a, a:hover, a:focus {
+    color: @color-content;
+    line-height: 3rem;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+    &.router-link-exact-active.router-link-active {
+      color: @color-primary;
+      border-bottom-color: @color-primary;
+    }
+  }
+  // 导航块按钮尺寸
+  .nav-route a {
+    padding: 0 1rem;
+    margin: 0 .5rem;
+  }
+  // 菜单块按钮尺寸
+  .nav-menu a {
+    width: 3rem;
+    text-align: center;
+  }
+}

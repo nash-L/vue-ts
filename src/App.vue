@@ -1,15 +1,3 @@
 <template>
-  <div>
-    {{ msg }}
-  </div>
+  <router-view></router-view>
 </template>
-
-<script lang="ts">
-  import Vue from 'vue'
-  import Component from 'vue-class-component'
-
-  @Component
-  export default class App extends Vue {
-    msg: string = "hello"
-  }
-</script>
