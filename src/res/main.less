@@ -1,6 +1,7 @@
 @color-primary: #2b85e4;
 @color-background: #f8f8f9;
 @color-border: #dddee1;
+@color-block-border: #eee;
 @color-content: #495060;
 @color-sub: #80848f;
 
@@ -52,5 +53,32 @@ small {
   .nav-menu a {
     width: 3rem;
     text-align: center;
+  }
+}
+
+#store-head-book {
+  text-align: center;
+  img {
+    width: 100%;
+    border: 1px solid @color-border;
+  }
+}
+
+.block {
+  border-bottom: 3px solid @color-block-border;
+  .title {
+    padding: 12px 12px 4px;
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    a {
+      color: #495060;
+      font-size: .8em;
+      opacity: .8;
+      float:right;
+    }
+  }
+  .body {
+    padding: 0 12px 12px;
   }
 }
