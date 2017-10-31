@@ -32,6 +32,7 @@ small {
   top: 0;
   width: 100%;
   border-bottom: 1px solid @color-border;
+  z-index: 100;
   // 按钮及选中样式
   a, a:hover, a:focus {
     color: @color-content;
@@ -56,8 +57,18 @@ small {
   }
 }
 
-#store-head-book {
+.store-head-book {
   text-align: center;
+  img {
+    width: 100%;
+    border: 1px solid @color-border;
+  }
+}
+
+.store-main-book {
+  & + .store-main-book {
+    margin-top: 5px;
+  }
   img {
     width: 100%;
     border: 1px solid @color-border;
@@ -67,10 +78,10 @@ small {
 .block {
   border-bottom: 3px solid @color-block-border;
   .title {
-    padding: 12px 12px 4px;
+    padding: 12px 12px 8px;
     text-align: left;
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     a {
       color: #495060;
       font-size: .8em;
