@@ -26,40 +26,33 @@
         书城精选
       </Col>
       <Col span="24" class="body">
-        <Row :gutter="12" class="store-main-book">
+        <Row class="store-main-book">
           <Col span="6">
             <img src="http://m.hongchenbook.com/files/article/image/2/2176/2176s.jpg">
           </Col>
-          <Col span="18">
+          <Col span="18" class="remark">
             <h4>女神情衷</h4>
             <small>挣脱婚枷异乡职场去竞争 誓纾母忧到底逆袭上巅峰 冥冥之中疑有伟人牵丝红 茫茫人海旷世奇缘演绎中...</small>
           </Col>
         </Row>
-        <Row :gutter="12" class="store-main-book">
+        <Row class="store-main-book">
           <Col span="6">
             <img src="http://m.hongchenbook.com/files/article/image/2/2176/2176s.jpg">
           </Col>
-          <Col span="18">
+          <Col span="18" class="remark">
             <h4>女神情衷</h4>
             <small>挣脱婚枷异乡职场去竞争 誓纾母忧到底逆袭上巅峰 冥冥之中疑有伟人牵丝红 茫茫人海旷世奇缘演绎中...</small>
           </Col>
         </Row>
-        <Row :gutter="12" class="store-main-book">
+        <Row class="store-main-book">
           <Col span="6">
             <img src="http://m.hongchenbook.com/files/article/image/2/2176/2176s.jpg">
           </Col>
-          <Col span="18">
+          <Col span="18" class="remark">
             <h4>女神情衷</h4>
             <small>挣脱婚枷异乡职场去竞争 誓纾母忧到底逆袭上巅峰 冥冥之中疑有伟人牵丝红 茫茫人海旷世奇缘演绎中...</small>
           </Col>
         </Row>
-      </Col>
-    </Row>
-    <Row class="block">
-      <Col span="24" class="title">
-        热门阅读
-      </Col>
-      <Col span="24" class="body">
       </Col>
     </Row>
   </div>

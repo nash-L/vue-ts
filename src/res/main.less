@@ -66,22 +66,32 @@ small {
 }
 
 .store-main-book {
+  padding: 0 0 1rem;
   & + .store-main-book {
-    margin-top: 5px;
+    padding: 1rem 0;
+    border-top: 1px solid @color-border;
+  }
+  &:last-child {
+    padding: 1rem 0 0;
   }
   img {
     width: 100%;
     border: 1px solid @color-border;
+    float: left;
+  }
+  .remark {
+    padding-left: .8rem;
   }
 }
 
 .block {
-  border-bottom: 3px solid @color-block-border;
+  border-bottom: 5px solid @color-block-border;
   .title {
-    padding: 12px 12px 8px;
+    padding: 6px 12px;
     text-align: left;
     line-height: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid @color-border;
     a {
       color: #495060;
       font-size: .8em;
@@ -90,6 +100,6 @@ small {
     }
   }
   .body {
-    padding: 0 12px 12px;
+    padding: 12px 12px;
   }
 }
